@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcería Jessy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section id="header">
+        <nav class="navbar" style="background-color: #47a9fa;">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color:aliceblue;" href="#inicio">Dulcería Jessy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color:aliceblue;" aria-current="page" href="#acerca">Acerca</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:aliceblue;" href="#register">Regístrate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:aliceblue;" href="#products">Catálogo</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section id="inicio">
+      <section class="title-text col">
+        <section class="title row text-center">
+          <h2>Dulcería Jessy</h2>
+        </section>
+        <section class="text row text-center">
+          <p>¡Conoce nuestros productos!</p>
+        </section>
+        <section class="form-row text-center">
+          <a href="#acerca"><button class="title-button css-button-sliding-to-bottom--sky">Siguiente</button></a>
+        </section>
+      </section>
+    </section>
+
+    <section class="container-fluid" id="acerca">
+      <section class="row">
+        <section class="col-md-6" id="acerca-img"></section>
+        <section class="col-md-6" id="acerca-txt">
+          <h2 class="encabezados text-center">Ven y conócenos</h2>
+            <div class="row form-group">
+              <div class="col-md">
+                Ofrecemos una gran variedad de dulces a increíbles precios. Tambien ofrecemos materiales para fiestas, proyectos, trabajos y mucho más
+              </div>
+            </div> <br>
+            <div class="form-row text-center">
+              <a href="#inicio"><button class="css-button-sliding-to-bottom--sky">Regresar</button></a>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <section class="container-fluid" id="register">
+      <section class="row text-center">
+        <section class="col-md-6 reg-boxes">
+          <h2>Regístrate</h2>
+          <p>Consigue nuestro catálogo</p>
+          <form action="" method="">
+            <div class="row form-group">
+              <div class="col-md">
+                <input type="text" class="reg-box form-control" placeholder="Nombre" required>
+              </div>
+            </div> <br>
+            <div class="row">
+              <div class="col-md">
+                <input type="email" class="reg-box form-control" placeholder="Correo electrónico" required>
+              </div>
+            </div> <br>
+            <div class="form-row text-center">
+              <button type="submit" class="css-button-sliding-to-bottom--sky">Envíar</button>
+            </div>
+          </form>
+        </section>
+        <section class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.7251083709837!2d-101.62194351059742!3d21.076638547500696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe0184c979a7%3A0x4560cbd7a7b87ab9!2sdulceria%20jessy!5e0!3m2!1sen!2smx!4v1688954380353!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        </section>
+    </section>
+
+    <section id="products">
+      <section class="row justify-content-around">
+        <section class="row text-center sub-prod">
+          <h2>Conoce nuestro catálogo</h2>
+        </section>
+        <section class="card col-md-3 shadow">
+          <img src="img/dulces-1.jpeg" alt="VelaPrincipal" class="card-img-top">
+          <section class="card-body">
+            <h5 class="card-title">Dulces 1</h5>
+            <p class="card-text tarjeta-texto d-none d-md-flex">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eum molestias modi quo doloribus, harum.</p>
+            <button type="button" data-bs-target="#modal1" data-bs-toggle="modal" class="d-md-none css-button-sliding-to-left--green">Más info...</button>
+          </section>
+        </section>
+        <section class="card col-md-3 shadow">
+          <img src="img/dulces-2.jpeg" alt="VelaPrincipal" class="card-img-top">
+          <section class="card-body">
+            <h5 class="card-title">Dulces 2</h5>
+            <p class="card-text tarjeta-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eum molestias modi quo doloribus, harum.</p>
+          </section>
+        </section>
+        <section class="card col-md-3 shadow">
+          <img src="img/dulces-3.jpeg" alt="VelaPrincipal" class="card-img-top">
+          <section class="card-body">
+            <h5 class="card-title">Dulces 3</h5>
+            <p class="card-text tarjeta-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eum molestias modi quo doloribus, harum.</p>
+          </section>
+        </section>
+      </section>
+      <section class="button-prd form-row text-center">
+        <a href="#inicio"><button class="css-button-sliding-to-bottom--sky">Regresar</button></a>
+      </section>
+    </section>
+
+    <section id="footer">
+      <section class="row text-center">
+        <section class="col-md-6">
+          <a href="https://www.facebook.com/Dulceriajessi"><img class="social-media" src="img/free-facebook-icon-2869-thumb.png " alt="facebook"></a>
+        </section>
+        <section class="col-md-6">
+          <a href="https://www.instagram.com/jessidulceria/"><img class="social-media" src="img/insta.png" alt="insta"></a>
+        </section> 
+      </section>
+      <section class="row text-center">
+        <h2>Dulcería Jessy</h2>
+      </section>
+    </section>
+</body>
+</html>

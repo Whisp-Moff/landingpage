@@ -1,0 +1,20 @@
+@keyframes title{
+    0%{
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes text{
+    0%{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+}
+
+@keyframes button{
+    0%{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+}
